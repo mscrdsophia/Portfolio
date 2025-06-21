@@ -1,6 +1,6 @@
 function HomePage() {
   return (
-    <div className="min-h-screen p-6 md:p-8 bg-white">
+    <div className="p-6 md:p-8 bg-white">
       <div className="max-w-6xl mx-auto">
 
         {/* Header Section */}
@@ -29,16 +29,6 @@ function HomePage() {
             </div>
           </div>
         </div>
-
-        {/* Bio Section */}
-        <div className="flex justify-center md:justify-end">
-          <div className="max-w-2xl text-center md:text-right">
-            <p className="text-base md:text-xl text-gray-800 leading-relaxed">
-              Hi, I’m a web developer with a background in retail leadership, and passionate about building user-friendly digital solutions.
-            </p>
-          </div>
-        </div>
-
       </div>
     </div>
   );
