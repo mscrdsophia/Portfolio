@@ -34,11 +34,16 @@ function HomePage() {
             </div>
             </div> 
         </div>
-         <h2 class= "text-right">
-            Hi, I'm a web developer with a background
-in retail leadership, and passionate about 
-building user-friendly digital solutions.
-            </h2>
+
+         <h2 className= "text-right md:text-lg ">
+            Hi, I'm a web developer with a background in retail leadership, and passionate about building user-friendly digital solutions.
+          </h2>
+          <div>
+          <h1 className="text-4xl md:text-xl text-black text-center md:text-left mb-6 mt-12">
+            featured projects.
+          </h1>
+          </div>
+          
       </div>
     </div>
   );
