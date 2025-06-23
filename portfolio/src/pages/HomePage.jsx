@@ -13,6 +13,11 @@ function HomePage() {
             <h1 className="text-5xl md:text-7xl font-black text-black items-start  leading-none">
               MASCARDO
             </h1>
+            <h2>
+              <span className="text-2xl md:text-3xl text-gray-600 mt-2 font-normal">
+                Frontend Developer  
+              </span>
+            </h2>
             <h2 className="text-base md:text-lg text-gray-600 mt-4 items-start  font-normal">
               sophia.web.dev24@gmail.com
             </h2>
@@ -27,8 +32,13 @@ function HomePage() {
                 className="w-full h-full object-cover"
               />
             </div>
-          </div>
+            </div> 
         </div>
+         <h2 class= "text-right">
+            Hi, I'm a web developer with a background
+in retail leadership, and passionate about 
+building user-friendly digital solutions.
+            </h2>
       </div>
     </div>
   );
