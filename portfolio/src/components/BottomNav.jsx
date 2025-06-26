@@ -20,11 +20,11 @@ const navItems = [
     label: "Projects",
     onClick: () => window.location.href = "/projects",
   },
-  {
-    icon: <MdEmail className="text-black text-xl" />,
-    label: "Contact",
-    onClick: () => window.location.href = "/contact",
-  },
+  // {
+  //   icon: <MdEmail className="text-black text-xl" />,
+  //   label: "Contact",
+  //   onClick: () => window.location.href = "/contact",
+  // },
   {
     icon: <FaLinkedin className="text-black text-xl" />,
     label: "LinkedIn",
